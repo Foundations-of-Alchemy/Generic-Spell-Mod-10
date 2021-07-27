@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "io.github.foa.tr_nuclear.mixin",
+  "package": "io.github.foa.gsm10.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],

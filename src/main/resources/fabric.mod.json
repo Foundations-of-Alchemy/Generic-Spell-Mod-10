@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "tr_nuclear",
+  "id": "gsm10",
   "version": "${version}",
-  "name": "Tr_nuclear",
+  "name": "Generic Spell Mod 10",
   "description": "",
   "authors": [],
   "contact": {},
@@ -11,14 +11,14 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "io.github.foa.tr_nuclear.client.NuclearClient"
+      "io.github.foa.gsm10.client.GsmClient"
     ],
     "main": [
-      "io.github.foa.tr_nuclear.NuclearInit"
+      "io.github.foa.gsm10.GsmInit"
     ]
   },
   "mixins": [
-    "tr_nuclear.mixins.json"
+    "gsm10.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.11.6",

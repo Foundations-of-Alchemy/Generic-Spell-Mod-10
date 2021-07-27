@@ -1,6 +1,7 @@
 # User-specific stuff
 .idea/
-src/datagen/
+src/main/java/io/github/foa/gsm10/datagen
+
 *.iml
 *.ipr
 *.iws
