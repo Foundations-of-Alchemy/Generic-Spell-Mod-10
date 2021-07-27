@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "tr_nuclear",
+  "version": "${version}",
+  "name": "Tr_nuclear",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MPL-2.0",
+  "icon": "assets/tr_nuclear/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.foa.tr_nuclear.client.NuclearClient"
+    ],
+    "main": [
+      "io.github.foa.tr_nuclear.NuclearInit"
+    ]
+  },
+  "mixins": [
+    "tr_nuclear.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
